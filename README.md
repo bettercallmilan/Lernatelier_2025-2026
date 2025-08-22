@@ -18,19 +18,17 @@
 
 ## 22.8
 
-- [ ] Skizze App
-- [ ] Projektsetup und Lokalspeicher-Konzept
+- [x] Prototyp App
+- [x] Projektsetup und Lokalspeicher-Konzept
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, einen ersten Code und Skizze auf github hochzuladen!
+✍️ Heute habe ich mir überlegt, was für ein Projekt ich machen soll. Dabei bin ich auf die Idee gekommen, meine App aus der Lernperiode 10 für Mobile zu entwickeln. Dazu habe ich ein Prototyp für Mobile mithilfe von der Web-App erstellt. Da wir im Modul 335 noch nicht so weit sind und noch nie ein Mobile-App Projekt erstellt habe, werde ich dies wahrscheinlich nächste Woche machen können. Dazu habe ich mich von IntelliJ und Android Studio erkundet. Für mein Lokalspeicher-Konzept habe ich mir überlegt, die schon erstellte Datenbank (mongoDB Atlas) zu benutzen - dann ist die Mobile App direkt mit der Desktop sychronisiert.
 
 ## 29.8
 
-- [ ] Arbeitspaket 1
-- [ ] Arbeitspaket 2
-- [ ] Arbeitspaket 3
-- [ ] Arbeitspaket 4
+- [ ] IDE wählen (Modul) und Projekt erstellen
+- [ ] Design für Homepage etc. erstellen
+- [ ] Über MongoDB Atlas Device SDK erkunden
+- [ ] nötige Informationen für Development aus dem Modul sammeln
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
