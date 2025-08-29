@@ -27,9 +27,16 @@
 
 - [x] Als Entwickler möchte ich eine IDE auswählen und ein Projekt erstellen, damit ich eine Entwicklungsumgebung für das Modul habe.
 - [x] Als Designer möchte ich ein Design für die Homepage und andere Bereiche erstellen, damit die Anwendung eine ansprechende und benutzerfreundliche Oberfläche hat.
-- [ ] Als Entwickler möchte ich mich über das MongoDB Atlas Device SDK informieren, damit ich die Synchronisierung von Daten zwischen dem Gerät und der Cloud in die Anwendung integrieren kann.
-- [ ] Als Entwickler möchte ich alle notwendigen Informationen für die Entwicklung aus dem Modul sammeln, damit ich eine klare Vorstellung von den Anforderungen und dem Umfang des Projekts habe.
+- [x] Als Entwickler möchte ich mich über das MongoDB Atlas Device SDK informieren, damit ich die Synchronisierung von Daten zwischen dem Gerät und der Cloud in die Anwendung integrieren kann.
+- [x] Als Entwickler möchte ich alle notwendigen Informationen für die Entwicklung aus dem Modul sammeln, damit ich eine klare Vorstellung von den Anforderungen und dem Umfang des Projekts habe.
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich meine Entwicklungsumgebung eingerichtet und mich für eine IDE entschieden. Parallel dazu habe ich ein erstes Design für die Benutzeroberfläche der App entworfen, um eine klare visuelle Vorstellung zu bekommen. Ein wichtiger Schritt war die Recherche zum MongoDB Atlas Device SDK, um die Datensynchronisierung zu planen. Ich konnte auch alle Anforderungen aus dem Modul zusammentrug, jedoch wurde in der Besprechung gesagt, dass .NET MAUI als veraltet gilt. Das bedeutet, ich muss nächste Woche auf eine andere Technologie umsteigen.
 
-☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+## 5.9
+
+- [ ] Als Entwickler möchte ich von .NET MAUI auf eine modernere Technologie migrieren, damit mein Projekt auf einer zukunftsfähigen Basis steht.
+- [ ] Als Entwickler möchte ich die neue Projektstruktur aufsetzen und alle notwendigen Abhängigkeiten installieren, damit die Entwicklungsumgebung bereit ist.
+- [ ] Als Designer möchte ich die entworfene Homepage in der neuen Technologie implementieren, um einen ersten sichtbaren Fortschritt zu haben.
+- [ ] Als Entwickler möchte ich eine erste Verbindung zur MongoDB-Datenbank herstellen, um die Grundlage für die Datensynchronisierung zu schaffen.
+
+✍️ Heute habe ich...
