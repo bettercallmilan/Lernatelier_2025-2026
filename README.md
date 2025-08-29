@@ -26,7 +26,7 @@
 ## 29.8
 
 - [x] Als Entwickler möchte ich eine IDE auswählen und ein Projekt erstellen, damit ich eine Entwicklungsumgebung für das Modul habe.
-- [ ] Als Designer möchte ich ein Design für die Homepage und andere Bereiche erstellen, damit die Anwendung eine ansprechende und benutzerfreundliche Oberfläche hat.
+- [x] Als Designer möchte ich ein Design für die Homepage und andere Bereiche erstellen, damit die Anwendung eine ansprechende und benutzerfreundliche Oberfläche hat.
 - [ ] Als Entwickler möchte ich mich über das MongoDB Atlas Device SDK informieren, damit ich die Synchronisierung von Daten zwischen dem Gerät und der Cloud in die Anwendung integrieren kann.
 - [ ] Als Entwickler möchte ich alle notwendigen Informationen für die Entwicklung aus dem Modul sammeln, damit ich eine klare Vorstellung von den Anforderungen und dem Umfang des Projekts habe.
 
