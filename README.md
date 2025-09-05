@@ -37,6 +37,6 @@
 - [x] Als Entwickler möchte ich von .NET MAUI auf eine modernere Technologie migrieren, damit mein Projekt auf einer zukunftsfähigen Basis steht.
 - [x] Als Entwickler möchte ich die neue Projektstruktur aufsetzen und alle notwendigen Abhängigkeiten installieren, damit die Entwicklungsumgebung bereit ist.
 - [ ] Als Designer möchte ich die entworfene Homepage in der neuen Technologie implementieren, um einen ersten sichtbaren Fortschritt zu haben.
-- [ ] Als Entwickler möchte ich eine statische Aufgabenliste auf der Homepage anzeigen, um das UI-Layout mit Beispieldaten zu testen.
+- [ ] Als Entwickler möchte ich die Login-Page als index.tsx anzeigen (noch keine Logik).
 
 ✍️ Heute habe ich...
