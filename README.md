@@ -36,7 +36,16 @@
 
 - [x] Als Entwickler möchte ich von .NET MAUI auf eine modernere Technologie migrieren, damit mein Projekt auf einer zukunftsfähigen Basis steht.
 - [x] Als Entwickler möchte ich die neue Projektstruktur aufsetzen und alle notwendigen Abhängigkeiten installieren, damit die Entwicklungsumgebung bereit ist.
-- [ ] Als Designer möchte ich die entworfene Homepage in der neuen Technologie implementieren, um einen ersten sichtbaren Fortschritt zu haben.
-- [ ] Als Entwickler möchte ich die Login-Page als index.tsx anzeigen (noch keine Logik).
+- [x] Als Designer möchte ich die entworfene Homepage in der neuen Technologie implementieren, um einen ersten sichtbaren Fortschritt zu haben.
+- [x] Als Entwickler möchte ich die Login-Page als index.tsx anzeigen (noch keine Logik).
 
-✍️ Heute habe ich...
+✍️ Heute habe ich den Technologiewechsel vollzogen und bin von .NET MAUI auf React Native umgestiegen. Ich habe die neue Entwicklungsumgebung eingerichtet und alle notwendigen Pakete installiert. Die Login-Seite konnte ich auch umzusetzen. Zum Testen habe ich die Expo Go App auf meinem Handy installiert und dann den QR-Code von VSC gescannt. Das funktionierte gut und die Änderungen wurden auch live angezeigt (Bild). Das UI-Layout dafür steht und ist bereit für die Logik-Implementierung.
+![login](https://github.com/user-attachments/assets/79881076-5b80-4b49-9451-283e6ce543b5)
+
+## 12.9
+
+- [ ] Als Entwickler möchte ich eine Authentifizierungslogik für die Login-Seite implementieren, damit sich Benutzer anmelden können.
+- [ ] Als Entwickler möchte ich die Hauptansicht für die Aufgabenliste erstellen, damit nach dem Login die Aufgaben angezeigt werden können.
+- [ ] Als Entwickler möchte ich eine wiederverwendbare "Task-Item"-Komponente erstellen, um einzelne Aufgaben in der Liste darzustellen.
+- [ ] Als Entwickler möchte ich die Navigation einrichten, sodass ein Benutzer nach erfolgreichem Login von der Anmeldeseite zur Aufgabenliste weitergeleitet wird.
+
