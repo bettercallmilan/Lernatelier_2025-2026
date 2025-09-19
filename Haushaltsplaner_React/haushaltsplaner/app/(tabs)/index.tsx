@@ -6,12 +6,36 @@ export default function HomeScreen() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLogin = () => {
-    if (username && password) {
-      router.replace('../(tabs)/tasks');
-    } else {
+  const handleLogin = async () => {
+    if (!username || !password) {
       alert('Bitte Benutzername und Passwort eingeben');
+      return;
     }
+    
+    try {
+      const isValidUser = await validateUser(username, password);
+      
+      if (isValidUser) {
+        console.log('Login successful');
+        router.replace('../(tabs)/tasks');
+      } else {
+        alert('Benutzername oder Passwort ist falsch');
+      }
+    } catch (error) {
+      console.error('Login error:', error);
+      alert('Bei der Anmeldung ist ein Fehler aufgetreten');
+    }
+  };
+
+  const validateUser = async (user: string, pass: string) => {
+    await new Promise(resolve => setTimeout(resolve, 500));
+    
+    const validUsers = [
+      { username: 'admin', password: 'admin123' },
+      { username: 'user', password: 'user123' }
+    ]; // actual user validation logic would go here
+    
+    return validUsers.some(u => u.username === user && u.password === pass);
   };
 
   const handleRegister = () => {
