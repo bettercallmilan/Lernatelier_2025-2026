@@ -54,7 +54,18 @@
 
 ## 19.9
 
-- [ ] Als Entwickler möchte ich eine Authentifizierungslogik für die Login-Seite implementieren, damit sich Benutzer anmelden können.
+- [x] Als Entwickler möchte ich eine Authentifizierungslogik für die Login-Seite implementieren, damit sich Benutzer anmelden können.
 - [x] Als Entwickler möchte ich auf Papier Designs für Tasks, Einkaufsliste und ein Prototyp von einem Logo erstellen.
-- [ ] Als Entwickler möchte ich eine Funktion zum Hinzufügen neuer Aufgaben erstellen, inklusive Eingabefeld und Speicherlogik.
+- [x] Als Entwickler möchte ich eine Funktion zum Hinzufügen neuer Aufgaben erstellen, inklusive Eingabefeld und Speicherlogik.
 - [x] Als Entwickler möchte ich die Möglichkeit schaffen, Aufgaben als "erledigt" zu markieren.
+
+✍️ Heute habe ich eine grundlegende Authentifizierung implementiert, die vorerst ohne Datenbankverbindung auskommt, aber die Login-Funktionalität ermöglicht. Zudem konnte ich die Kernfunktionen der Aufgabenverwaltung fertigstellen: Man kann jetzt neue Aufgaben hinzufügen und bestehende als erledigt markieren. Parallel zur Entwicklung habe ich auf Papier erste Designs für die App-Komponenten und einen Logo-Prototyp entworfen.
+
+## 26.9
+
+- [ ] Als Entwickler möchte ich die Benutzerverwaltung mit der MongoDB-Datenbank verbinden, um eine echte Registrierung und Anmeldung zu ermöglichen.
+- [ ] Als Entwickler möchte ich die Aufgabenliste mit der MongoDB-Datenbank synchronisieren, sodass Aufgaben persistent gespeichert werden.
+- [ ] Als Entwickler möchte ich die Benutzeroberfläche für die Einkaufsliste gemäss den erstellten Papier-Designs umsetzen.
+- [ ] Als Entwickler möchte ich einen Logout-Button implementieren, damit sich Benutzer sicher abmelden können.
+
+✍️ Heute habe ich...
