@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, TextInput, TouchableOpacity, StatusBar } from 'react-native';
+import { router } from 'expo-router';
 
 export default function HomeScreen() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // login logic
-    console.log('Login pressed');
+    if (username && password) {
+      router.replace('../(tabs)/tasks');
+    } else {
+      alert('Bitte Benutzername und Passwort eingeben');
+    }
   };
 
   const handleRegister = () => {
