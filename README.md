@@ -57,4 +57,4 @@
 - [ ] Als Entwickler möchte ich eine Authentifizierungslogik für die Login-Seite implementieren, damit sich Benutzer anmelden können.
 - [ ] Als Entwickler möchte ich die Aufgabenliste mit der MongoDB-Datenbank verbinden, um echte Daten anzuzeigen.
 - [ ] Als Entwickler möchte ich eine Funktion zum Hinzufügen neuer Aufgaben erstellen, inklusive Eingabefeld und Speicherlogik.
-- [ ] Als Entwickler möchte ich die Möglichket schaffen, Aufgaben als "erledigt" zu markieren.
+- [x] Als Entwickler möchte ich die Möglichkeit schaffen, Aufgaben als "erledigt" zu markieren.
