@@ -46,7 +46,15 @@
 ## 12.9
 
 - [ ] Als Entwickler möchte ich eine Authentifizierungslogik für die Login-Seite implementieren, damit sich Benutzer anmelden können.
-- [ ] Als Entwickler möchte ich die Hauptansicht für die Aufgabenliste erstellen, damit nach dem Login die Aufgaben angezeigt werden können.
-- [ ] Als Entwickler möchte ich eine wiederverwendbare "Task-Item"-Komponente erstellen, um einzelne Aufgaben in der Liste darzustellen.
-- [ ] Als Entwickler möchte ich die Navigation einrichten, sodass ein Benutzer nach erfolgreichem Login von der Anmeldeseite zur Aufgabenliste weitergeleitet wird.
+- [x] Als Entwickler möchte ich die Hauptansicht für die Aufgabenliste erstellen, damit nach dem Login die Aufgaben angezeigt werden können.
+- [x] Als Entwickler möchte ich eine wiederverwendbare "Task-Item"-Komponente erstellen, um einzelne Aufgaben in der Liste darzustellen.
+- [x] Als Entwickler möchte ich die Navigation einrichten, sodass ein Benutzer nach erfolgreichem Login von der Anmeldeseite zur Aufgabenliste weitergeleitet wird.
 
+✍️ Heute habe ich Fortschritte bei der Benutzeroberfläche gemacht. Ich habe die Hauptansicht für die Aufgabenliste und eine wiederverwendbare Komponente für einzelne Aufgaben erfolgreich erstellt. Ausserdem funktioniert die Navigation jetzt wie geplant: Nach einem (noch simulierten) Login wird man korrekt zur Aufgabenliste weitergeleitet. Leider hat die Zeit nicht mehr gereicht, um die eigentliche Authentifizierungslogik zu implementieren.
+
+## 19.9
+
+- [ ] Als Entwickler möchte ich eine Authentifizierungslogik für die Login-Seite implementieren, damit sich Benutzer anmelden können.
+- [ ] Als Entwickler möchte ich die Aufgabenliste mit der MongoDB-Datenbank verbinden, um echte Daten anzuzeigen.
+- [ ] Als Entwickler möchte ich eine Funktion zum Hinzufügen neuer Aufgaben erstellen, inklusive Eingabefeld und Speicherlogik.
+- [ ] Als Entwickler möchte ich die Möglichket schaffen, Aufgaben als "erledigt" zu markieren.
