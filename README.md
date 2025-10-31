@@ -63,9 +63,20 @@
 
 ## 31.10
 
-- [ ] Als Entwickler möchte ich die Benutzerverwaltung mit der MongoDB-Datenbank verbinden, um eine echte Registrierung und Anmeldung zu ermöglichen.
-- [ ] Als Entwickler möchte ich die Aufgabenliste mit der MongoDB-Datenbank synchronisieren, sodass Aufgaben persistent gespeichert werden.
+- [x] Als Entwickler möchte ich die Benutzerverwaltung mit der MongoDB-Datenbank verbinden, um eine echte Registrierung und Anmeldung zu ermöglichen.
+- [x] Als Entwickler möchte ich die Aufgabenliste mit der MongoDB-Datenbank synchronisieren, sodass Aufgaben persistent gespeichert werden.
 - [ ] Als Entwickler möchte ich die Benutzeroberfläche für die Einkaufsliste gemäss den erstellten Papier-Designs umsetzen.
 - [x] Als Entwickler möchte ich einen Logout-Button implementieren, damit sich Benutzer sicher abmelden können.
 
-✍️ Heute habe ich...
+✍️ Die Benutzerverwaltung ist jetzt voll funktionsfähig und mit der MongoDB-Datenbank verbunden, was eine echte Registrierung und Anmeldung ermöglicht. Gleichzeitig werden nun auch die Aufgaben persistent in der Datenbank gespeichert und synchronisiert. Parallel dazu habe ich einen Logout-Button implementiert, um den Authentifizierungs-Zyklus zu schliessen.
+
+## Fertiges Projekt
+
+<img width="864" height="1920" alt="image" src="https://github.com/user-attachments/assets/4b59f139-d1b2-4ab6-8003-ebbd19295a05" />
+<img width="864" height="1920" alt="image" src="https://github.com/user-attachments/assets/d6143532-616c-4a29-b02c-864be2a1fd7c" />
+<img width="864" height="1920" alt="image" src="https://github.com/user-attachments/assets/fce0c5f5-69de-4aec-847f-8997f4078ea5" />
+
+
+## Reflexion
+
+Die grösste Herausforderung in dieser Lernperiode war der unerwartete Technologiewechsel (5.9.) von .NET MAUI zu React Native, nachdem sich herausstellte, dass MAUI als veraltet gilt. Dieser Wechsel war ungeplant, konnte aber erfolgreich gemacht werden und hat gezeigt, wie wichtig Flexibilität ist.
