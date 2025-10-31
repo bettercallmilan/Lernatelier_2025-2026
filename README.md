@@ -72,9 +72,9 @@
 
 ## Fertiges Projekt
 
-<img width="864" height="1920" alt="image" src="https://github.com/user-attachments/assets/4b59f139-d1b2-4ab6-8003-ebbd19295a05" />
-<img width="864" height="1920" alt="image" src="https://github.com/user-attachments/assets/d6143532-616c-4a29-b02c-864be2a1fd7c" />
-<img width="864" height="1920" alt="image" src="https://github.com/user-attachments/assets/fce0c5f5-69de-4aec-847f-8997f4078ea5" />
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/4b59f139-d1b2-4ab6-8003-ebbd19295a05" />
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/d6143532-616c-4a29-b02c-864be2a1fd7c" />
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/fce0c5f5-69de-4aec-847f-8997f4078ea5" />
 
 
 ## Reflexion
