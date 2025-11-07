@@ -3,19 +3,33 @@
 
 ## Grob-Planung
 
-Aktuell besteht die Herausforderung, dass meine Gruppe die Möglichkeit einer Interdisziplinären Projektarbeit (IDPA) im Lernatelier angefragt hat, aber noch auf eine Antwort wartet. Daher bin ich mir unsicher, ob ich meine geplante Zeit bis Weihnachten nutzen soll, um gezielte Programmiersprachen und Frameworks zu trainieren oder mit der IDPA zu arbeiten. Ich fokussiere mich daher auf ein Projekt, das die gewünschten Technologien abdeckt und flexibel in beiden Szenarien fortgeführt werden kann. Mein Ziel ist es, in jedem Fall die von meinem Praktikumsbetrieb VZ VermögensZentrum genutzten Technologien zu vertiefen.
+Aktuell besteht die Herausforderung, dass meine Gruppe die IDPA (Purbank-Projekt) angefragt hat und diese eine hohe Priorität für eine bevorstehende Expo hat. Mein ursprüngliches Ziel war es, meine C#/.NET-Technologien für meinen Praktikumsbetrieb VZ zu vertiefen. Aufgrund der knappen Zeit bis Weihnachten und der Dringlichkeit der IDPA, werde ich mich in dieser Lernperiode jedoch vollständig auf das Purbank Mobile-Projekt fokussieren. Dieses Projekt ermöglicht es mir, die Frontend-Anforderungen der IDPA rechtzeitig zu erfüllen.
 
 ### Technologien, die Sie üben möchten und warum (50 - 100 Wörter)
-Microsoft-Umfeld: ASP.NET Core (Web-API), WPF (Desktop-Anwendung), Entity Framework Core (Datenzugriff) und SQL Server (Datenbank). Ich möchte mich in den zentralen Technologien meines Praktikumsbetriebs VZ VermögensZentrum vertiefen. Das Beherrschen des Microsoft-Stacks (ASP.NET, WPF, Entity Framework, SQL Server) ist für die Finanzbranche und meinen zukünftigen Berufsalltag essenziell. Da ich ein weniger komplexes Projekt wünsche, liegt der Fokus auf der sauberen Implementierung der Architektur und der grundlegenden CRUD-Operationen in diesen Frameworks.
+React Native (mit Expo), TypeScript, Expo Router und ein professioneller GitHub-Workflow. Ich möchte mich in der mobilen Entwicklung mit React Native vertiefen, da dies eine Schlüsseltechnologie für plattformübergreifende Apps ist. Das Beherrschen von Expo Router ist essenziell, um eine saubere, native App-Navigation (Stack-Navigation) aufzubauen. Ein strukturierter GitHub-Workflow (Issues, Branches, PRs) ist für die erfolgreiche Zusammenarbeit im IDPA-Team und für meinen zukünftigen Berufsalltag unerlässlich.
 
 ### Grobe Beschreibung des Projekts, das Sie bis Weihnachten bearbeiten möchten  (50-100 Wörter)
-Einfaches Geräte-Inventar-Tool: Das Projekt ist ein einfaches Inventar-Tool zur Verwaltung von Unternehmensgeräten (z.B. Laptops, Monitore). Das Backend wird als schlanke ASP.NET Core Web-API implementiert, die über Entity Framework Core auf eine lokale SQL Server Datenbank zugreift. Die Endanwendung wird eine WPF-Desktop-Applikation sein, die es dem Benutzer ermöglicht, Inventareinträge zu erstellen, zu bearbeiten, zu löschen und eine gefilterte Übersicht aller Geräte anzuzeigen. Der Fokus liegt auf der soliden Architektur und der Beherrschung der Kerntechnologien.
+Purbank Onboarding App (IDPA): Das Projekt ist der initiale Onboarding-Flow für die "Purbank" (IDPA) Mobile-App. Es ist eine React Native (Expo) App, die als Einstiegspunkt für Benutzer dient. Sie wird einen Welcome-Screen anzeigen und den Benutzer durch die Abläufe "Setup" (QR-Scan), "Login from another device" und "Register" (Info-Screen) führen. Der Fokus liegt auf einer sauberen UI/UX, einer logischen Stack-Navigation und einer professionellen Code-Struktur (Routing, Styling, Fonts).
 
 ### 7 klare, große user stories (auch "epics" genant) im Format "als x möchte ich y, damit z", anhand derer man am Ende überprüfen kann, ob das Projekt erfolgreich zu Ende geführt wurde. Diese epics können Sie dann jeweils in 4 Arbeitspakete herunterbrechen, wenn Sie dann im Verlaufe der LP12 die Sitzungen planen.
-- Als System-Benutzer möchte ich neue Geräte-Kategorien (z.B. "Laptop", "Monitor") erstellen und verwalten, damit das Inventar strukturiert und filterbar ist.
-- Als Administrator möchte ich über die WPF-Anwendung neue Geräte mit Seriennummer, Kategorie und Standort in die Datenbank einpflegen, damit alle Assets erfasst sind.
-- Als Administrator möchte ich ein bestehendes Gerät bearbeiten und dessen Status (z.B. "In Gebrauch", "Defekt") ändern können, damit die Gerätedaten aktuell bleiben.
-- Als System muss die ASP.NET Core API in der Lage sein, alle Inventareinträge zu liefern, damit die WPF-Anwendung die Daten vom Backend abrufen kann.
-- Als System-Benutzer möchte ich alle Geräte in einer sortierbaren Liste in der WPF-Anwendung sehen, damit ich schnell einen Überblick über das gesamte Inventar erhalte.
-- Als System-Benutzer möchte ich die Geräteliste nach Kategorie oder Standort filtern können, damit ich gezielt nach bestimmten Assets suchen kann.
-- Als System-Benutzer möchte ich einen Eintrag löschen können, damit ausgemusterte oder verlorene Geräte korrekt aus dem aktiven Inventar entfernt werden.
+- Als neuer Benutzer möchte ich einen klaren Welcome-Screen (Startseite) sehen, damit ich die Hauptoptionen (Setup, Login, Register) sofort erkenne.
+- Als Entwickler möchte ich eine saubere Stack-Navigation (ohne Tabs) implementieren, damit der Benutzer logisch von einem Screen zum nächsten (z.B. von Welcome zu Setup) geführt wird und immer einen "Zurück"-Button hat.
+- Als Benutzer möchte ich ein konsistentes App-Branding (Purbank-Logo, Custom Font 'Special Gothic' und das offizielle Farbschema) auf allen Screens sehen, damit die App professionell und wiedererkennbar ist.
+- Als Benutzer möchte ich auf "Setup" klicken und einen QR-Code-Scanner sehen, damit ich mein Gerät mit einem bestehenden Konto verknüpfen kann. Unklarheit: Das Backend für die QR-Code-Validierung ist noch unklar und nicht Teil dieses Arbeitspakets. Der Fokus liegt auf der reinen UI-Implementierung der Kamerafunktion.
+- Als Benutzer möchte ich auf "Register" klicken und einen Info-Screen sehen, der mir erklärt, wie ich ein Konto eröffnen kann (z.B. "Geh zur Filiale"), damit ich über den offiziellen Prozess informiert bin.
+- Als Benutzer möchte ich auf "Login from another device" klicken, damit ich den Prozess starten kann, um mich über ein anderes Gerät zu authentifizieren. Unklarheit: Der genaue "Login"-Flow ist technisch noch unklar und wird voraussichtlich vom Backend-Team definiert. Vorerst wird ein Platzhalter-Screen erstellt, der den Flow repräsentiert.
+- Konstant: Als Entwickler möchte ich das Projekt mit einem professionellen GitHub-Workflow (Issues, Branching, PRs) und einer sauberen Code-Struktur (z.B. app/_layout.tsx, Font-Loading) aufsetzen, damit die Wartbarkeit und Kollaboration im IDPA-Team gesichert ist.
+
+## 07.11
+
+- [x] GitHub-Workflow (Issue, Branch) für das "Welcome Screen"-Feature initialisieren und aufsetzen.
+- [x] Den "Welcome Screen" (app/index.tsx) mit Logo, Titel und den drei Navigations-Buttons implementieren.
+- [x] Die Purbank-CI/CD-Richtlinien (Custom Font 'Special Gothic' & Farbschema) in den Screen integrieren.
+- [x] Die App-Navigation auf einen reinen <Stack>-Navigator refactoren (<code>(tabs)</code>-Ordner entfernt) und im Root-Layout (app/_layout.tsx) konsolidieren.
+
+# 14.11
+
+- [ ] Recherche, Installation und Konfiguration des expo-barcode-scanner (QR-Code) Moduls für das Projekt.
+- [ ] Implementierung der Berechtigungs-Logik (Permissions) in app/setup.tsx, um den Benutzer aktiv um Kamerazugriff zu bitten.
+- [ ] Erstellung der UI für den Scanner-Screen (app/setup.tsx), inklusive der <Camera>-View und eines Scan-Overlays (z.B. ein Ziel-Quadrat).
+- [ ] Implementierung der Callback-Funktion onBarCodeScanned, um die gescannten Daten (vorerst) in einem Alert (Popup) anzuzeigen.
