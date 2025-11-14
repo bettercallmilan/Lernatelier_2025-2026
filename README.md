@@ -29,6 +29,15 @@ Purbank Onboarding App (IDPA): Das Projekt ist der initiale Onboarding-Flow für
 
 # 14.11
 
+- [x] i18n-Kernsystem mit LanguageContext implementieren (Englisch/Deutsch, AsyncStorage-Persistenz, t()-Funktion).
+- [x] LanguageToggle-Komponente entwickeln und in allen Screens integrieren (oben rechts).
+- [x] Alle bestehenden Screens (index.tsx, register.tsx) mit Übersetzungen ausstatten.
+- [x] Vollständige Übersetzungsdatenbank aus web-frontend übernehmen und um Navigation, Buttons und Status-Meldungen erweitern.
+
+Heute hatte ich ursprünglich geplant, den QR-Code-Scan-Screen zu implementieren. Nach dem letzten Pull Request sind jedoch Issues mit Inkonsistenzen im Language-System aufgetaucht, die priorisiert werden mussten. Stattdessen habe ich das komplette i18n-System implementiert: LanguageContext mit persistenter Speicherung, LanguageToggle-Komponente für alle Screens und die vollständige Übersetzungsdatenbank aus dem web-frontend übernommen und erweitert. Die ungeplante Umpriorisierung war sinnvoll, da ein konsistentes Sprachsystem die Grundlage für alle weiteren Features bildet. Der QR-Code-Scan-Screen wird auf die nächste Session verschoben.
+
+# 21.11
+
 - [ ] Recherche, Installation und Konfiguration des expo-barcode-scanner (QR-Code) Moduls für das Projekt.
 - [ ] Implementierung der Berechtigungs-Logik (Permissions) in app/setup.tsx, um den Benutzer aktiv um Kamerazugriff zu bitten.
 - [ ] Erstellung der UI für den Scanner-Screen (app/setup.tsx), inklusive der <Camera>-View und eines Scan-Overlays (z.B. ein Ziel-Quadrat).
