@@ -38,7 +38,7 @@ Heute hatte ich ursprünglich geplant, den QR-Code-Scan-Screen zu implementieren
 
 # 21.11
 
-- [ ] Recherche, Installation und Konfiguration des expo-barcode-scanner (QR-Code) Moduls für das Projekt.
+- [x] Recherche, Installation und Konfiguration des expo-barcode-scanner (QR-Code) Moduls für das Projekt.
 - [ ] Implementierung der Berechtigungs-Logik (Permissions) in app/setup.tsx, um den Benutzer aktiv um Kamerazugriff zu bitten.
 - [ ] Erstellung der UI für den Scanner-Screen (app/setup.tsx), inklusive der <Camera>-View und eines Scan-Overlays (z.B. ein Ziel-Quadrat).
 - [ ] Implementierung der Callback-Funktion onBarCodeScanned, um die gescannten Daten (vorerst) in einem Alert (Popup) anzuzeigen.
