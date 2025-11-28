@@ -39,6 +39,24 @@ Heute hatte ich ursprünglich geplant, den QR-Code-Scan-Screen zu implementieren
 # 21.11
 
 - [x] Recherche, Installation und Konfiguration des expo-barcode-scanner (QR-Code) Moduls für das Projekt.
-- [ ] Projekt Struktur anpassen (https://github.com/reazndev/purbank-mobile-app/issues/12)
-- [ ] Registrierungsseite erstellen (https://github.com/reazndev/purbank-mobile-app/issues/13)
-- [ ] Registrierungsseite erstellen (https://github.com/reazndev/purbank-mobile-app/issues/13)
+- [x] Projekt Struktur anpassen (https://github.com/reazndev/purbank-mobile-app/issues/12)
+- [x] Registrierungsseite erstellen (https://github.com/reazndev/purbank-mobile-app/issues/13)
+- [x] Registrierungsseite erstellen (https://github.com/reazndev/purbank-mobile-app/issues/13)
+
+Heute habe ich das QR-Code-Modul recherchiert und expo-camera (Nachfolger von expo-barcode-scanner) installiert und konfiguriert. Die Projektstruktur wurde gemäss Issue #12 angepasst: Registrierungs-Screens in /app/registration/ verschoben (start, code, verify, complete) und Setup-Screen nach authorize.tsx für Post-Login-Autorisierung.
+
+# 28.11
+
+- [x]  Vollständigen 4-Screen-Registrierungsflow implementieren (Contract Number → Registration Code → Email Verification → Key Generation)
+- [x]  Biometrische Sicherheit mit iOS Keychain/Android Keystore integrieren inkl. Face ID/Touch ID/Fingerprint-Authentifizierung
+- [x]  Production API-Integration mit allen Registrierungs-Endpoints und RSA-Schlüsselgenerierung mit Fallback-Lösung
+- [x]  Security Dependencies installieren (expo-secure-store, expo-local-authentication, expo-crypto, expo-device, react-native-rsa-native)
+
+Heute habe ich den kompletten Mobile-Registrierungsflow mit Enterprise-Level-Sicherheit implementiert. Der Flow umfasst vier Screens: Vertragsnummer-Eingabe, case-sensitiven Registrierungscode, E-Mail-Verifizierung (8-stellig, 3 Versuche, 30s Resend-Timer) und automatische RSA-2048-Bit-Schlüsselgenerierung. Die Sicherheitsarchitektur nutzt iOS Keychain und Android Keystore für Private-Key-Speicherung mit obligatorischer biometrischer Authentifizierung. Die API wurde von Mock auf Production migriert, inklusive Fehlerbehandlung und Device-Name-Detection. Zusätzlich implementierte ich eine crypto-basierte Fallback-Lösung für RSA-Generierung, animierte Screen-Transitions mit Fade/Scale-Effekten und vollständige DE/EN-Übersetzungen. Alle Console-Logs wurden bereinigt und die Projektstruktur entsprechend angepasst. https://github.com/reazndev/purbank-mobile-app/pull/17
+
+# 05.12
+
+- [ ] Resend E-Mail Funktion bei Registrierung fixen bzw. implementieren
+- [ ] Copilot Review von PR anschauen und evtl. Verbesserungen implementieren
+- [ ] Front End Styling issues fixen (Headers)
+- [ ] index.tsx für (authenticated) erstellen
