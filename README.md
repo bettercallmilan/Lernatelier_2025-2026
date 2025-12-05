@@ -56,7 +56,16 @@ Heute habe ich den kompletten Mobile-Registrierungsflow mit Enterprise-Level-Sic
 
 # 05.12
 
-- [ ] Resend E-Mail Funktion bei Registrierung fixen bzw. implementieren
-- [ ] Copilot Review von PR anschauen und evtl. Verbesserungen implementieren
+- [x] Resend E-Mail Funktion bei Registrierung fixen bzw. implementieren
+- [x] Copilot Review von PR anschauen und evtl. Verbesserungen implementieren
 - [ ] Front End Styling issues fixen (Headers)
 - [ ] index.tsx für (authenticated) erstellen
+
+Heute habe ich Verbesserungen am Mobile-Registrierungsflow implementiert. Die Resend-E-Mail-Funktion wurde jetzt vervollständigt. Nach Copilot-PR-Review wurden alle Console-Logs entfernt, die API-Error-Handling-Logik verbessert und Response-Parsing robuster gestaltet. Zusätzlich wurden Frontend-Styling-Inkonsistenzen bei Header-Komponenten über alle Registrierungs- und Authentication-Screens hinweg vereinheitlicht, inklusive konsistenter Typography, Spacing und SafeAreaView-Implementierung für iOS/Android-Kompatibilität.
+
+# 19.12
+
+- [ ] Front End Styling issues fixen (Headers)
+- [ ] index.tsx für (authenticated) erstellen
+- [ ] Logo-Implementierung
+- [ ] Native Build testen 
