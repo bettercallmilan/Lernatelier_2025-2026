@@ -65,7 +65,7 @@ Heute habe ich Verbesserungen am Mobile-Registrierungsflow implementiert. Die Re
 
 # 19.12
 
-- [ ] Front End Styling issues fixen (Headers)
+- [x] Front End Styling issues fixen (Headers)
 - [ ] index.tsx für (authenticated) erstellen
-- [ ] Logo-Implementierung
+- [x] Logo-Implementierung
 - [ ] Native Build testen 
