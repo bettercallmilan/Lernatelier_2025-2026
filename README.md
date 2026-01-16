@@ -40,7 +40,7 @@ Für mein anstehendes Praktikum habe ich folgende Anforderungen identifiziert:
 Heute habe ich die Grundlagen für meine Arbeit mit ASP.NET Core MVC gelegt. Zunächst habe ich meine Entwicklungsumgebung aufgesetzt, indem ich VS Code installiert und das .NET SDK (Version 8.0) heruntergeladen habe. Die Installation verlief problemlos. Ich habe mein erstes ASP.NET Core MVC-Projekt erstellt. Das "Hello World"-Projekt lief sofort nach dotnet run im Browser und zeigte die Standard-Willkommensseite.
 
 ## 16.01
-- [ ] Microsoft Learn Tutorial starten: "Get started with ASP.NET Core MVC"
+- [x] Microsoft Learn Tutorial starten: "Get started with ASP.NET Core MVC"
 - [ ] Models erstellen und verstehen
 - [ ] Views mit Razor-Syntax erstellen
 - [ ] Controller-Actions implementieren
