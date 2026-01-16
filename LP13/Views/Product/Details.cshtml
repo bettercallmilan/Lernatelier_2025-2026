@@ -1,0 +1,10 @@
+﻿@model Product
+
+<h2>@Model.Name</h2>
+<p>Preis: @Model.Price CHF</p>
+<p>Kategorie: @Model.Category</p>
+
+@if (Model.Price > 100)
+{
+    <span class="badge">Teuer!</span>
+}
