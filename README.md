@@ -49,10 +49,12 @@ Heute habe ich das Microsoft Learn Tutorial gestartet und die MVC-Komponenten pr
 
 ## 23.01
 
-- [ ] Entity Framework Core einbinden
-- [ ] Datenbankkontext konfigurieren
+- [x] Entity Framework Core einbinden
+- [x] Datenbankkontext konfigurieren
 - [ ] Migrations erstellen und anwenden
-- [ ] CRUD-Operationen implementieren
+- [x] CRUD-Operationen implementieren
+
+Heute habe ich Entity Framework Core in mein Projekt integriert und die Datenbankanbindung eingerichtet. Zuerst habe ich die nötigen NuGet Packages installiert (Microsoft.EntityFrameworkCore.SqlServer und .Tools), dann einen AppDbContext erstellt, der meine Products-Tabelle verwaltet.
 
 ## 30.01
 
