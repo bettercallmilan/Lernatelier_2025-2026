@@ -41,6 +41,19 @@ Heute habe ich die Grundlagen für meine Arbeit mit ASP.NET Core MVC gelegt. Zun
 
 ## 16.01
 - [x] Microsoft Learn Tutorial starten: "Get started with ASP.NET Core MVC"
-- [ ] Models erstellen und verstehen
-- [ ] Views mit Razor-Syntax erstellen
-- [ ] Controller-Actions implementieren
+- [x] Models erstellen und verstehen
+- [x] Views mit Razor-Syntax erstellen
+- [x] Controller-Actions implementieren
+
+Heute habe ich das Microsoft Learn Tutorial gestartet und die MVC-Komponenten praktisch umgesetzt. Ich habe ein Product-Model mit grundlegenden Properties erstellt, Views mit Razor-Syntax gebaut (@Model, @if, @foreach) und im ProductController mehrere Actions implementiert, die Daten an die Views übergeben. Das MVC-Pattern und der Datenfluss zwischen Controller, Model und View sind mir jetzt klarer.
+
+## 23.01
+
+- [ ] Entity Framework Core einbinden
+- [ ] Datenbankkontext konfigurieren
+- [ ] Migrations erstellen und anwenden
+- [ ] CRUD-Operationen implementieren
+
+## 30.01
+
+- [ ] Eigenes Mini-Projekt fertigstellen
