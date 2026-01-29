@@ -58,4 +58,7 @@ Heute habe ich Entity Framework Core in mein Projekt integriert und die Datenban
 
 ## 30.01
 
-- [ ] Eigenes Mini-Projekt fertigstellen
+- [x] Eigenes Mini-Projekt fertigstellen
+- [ ] Tutorial-Inhalt erstellen (Ziel, Vorwissen, Konzepte identifizieren und mit Code-Beispielen ausformulieren)
+- [ ] Erwartetes Resultat visualisieren (mit .gif) und mindestens 1 Fehlerfall beschreiben
+- [ ] Github Pages einrichten und konfigurieren
